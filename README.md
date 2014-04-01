@@ -30,7 +30,7 @@ mirror the proportions of the nested `<img>`.
 Example with a GIF from [ima.gs](ima.gs):
 
 ```html
-<div class="proportional example example-1">
+<div class="proportional">
   <div>
     <!-- content here -->
   </div>
