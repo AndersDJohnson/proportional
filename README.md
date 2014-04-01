@@ -3,15 +3,56 @@ proportional
 
 Lets HTML elements maintain proportion.
 
-There are a few pure CSS solutions for forcing an element to maintain a certain proportion or ratio. But all percentage-based approaches are subject to sub-pixel rounding errors. The traditonal way, using a placeholder image, is still the most
-reliable cross-browser solution. This repo standardizes the HTML/CSS for reusability.
+There are [a few pure CSS approaches](#pure-css-approaches) for forcing an element to maintain a certain proportion or ratio.
+But all are subject to [sub-pixel rounding errors](#sub-pixel-rounding-errors).
+The traditonal way, using a placeholder image, is still the most reliable cross-browser solution.
+
+This repo standardizes the needed HTML/CSS for reusability.
 
 
-## Sub-pixel rounding issues:
+## Install
+
+Via bower as `proportional`.
+
+```sh
+bower install --save proportional
+```
+
+## Usage
+
+Include the CSS in your page, then use the HTML structure seen in examples below.
+Provide an image with the correct proportions (preferrably a small transparent GIF).
+
+The inner `<div>` will fill the `.proportional` parent element, whose proportion will
+mirror the proportions of the nested `<img>`.
+
+Example with a GIF from [ima.gs](ima.gs):
+
+```html
+<div class="proportional example example-1">
+  <div>
+    <!-- content here -->
+  </div>
+  <img src="http://ima.gs/transparent/none/none/3x2.png" />
+</div>
+```
+
+### Examples
+
+See https://AndersDJohnson.github.io/proportional/example/.
+
+
+## Reference
+
+
+### Sub-pixel rounding errors
 * http://ejohn.org/blog/sub-pixel-problems-in-css/
 * http://www.palantir.net/blog/responsive-design-s-dirty-little-secret
 
-## Pure CSS attempts afflicted by sub-pixel rounding issues:
+### Pure CSS approaches
+
+Here are a few pure CSS attempts from around the web &ndash;
+all subject to sub-pixel rounding errors:
 
 * http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 * http://wemadeyoulook.at/en/blog/proportional-scaling-responsive-boxes-using-just-css/
