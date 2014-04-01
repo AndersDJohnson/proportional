@@ -21,13 +21,13 @@ bower install --save proportional
 ## Usage
 
 Include the CSS in your page, then use the HTML structure seen in examples below.
-Provide an image with the correct proportions &ndash preferrably a small transparent GIF, e.g. one generated from the wonderful [ima.gs](http:/ima.gs) service.
+Provide an image with the correct proportions &ndash preferrably a small transparent GIF.
 
 
 The inner `<div>` will fill the `.proportional` parent element, whose proportion will
 mirror the proportions of the nested `<img>`.
 
-Example with a GIF from [ima.gs](ima.gs):
+Example with a PNG from [ima.gs](ima.gs):
 
 ```html
 <div class="proportional">
