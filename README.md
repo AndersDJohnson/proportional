@@ -1,7 +1,7 @@
 proportional
 ============
 
-Lets HTML elements maintain proportion.
+Lets HTML elements maintain proportion using CSS and images.
 
 There are [a few pure CSS approaches](#pure-css-approaches) for forcing an element to maintain a certain proportion or ratio.
 But all are subject to [sub-pixel rounding errors](#sub-pixel-rounding-errors).
