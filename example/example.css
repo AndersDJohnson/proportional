@@ -1,0 +1,10 @@
+
+.example {
+  width: 35.123456789%;
+  overflow: hidden;
+  margin: 10px;
+  border: 2px solid red;
+}
+.example-2 {
+  padding: 10px;
+}

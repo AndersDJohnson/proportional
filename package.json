@@ -1,0 +1,32 @@
+{
+  "name": "proportional",
+  "version": "0.1.0",
+  "description": "Lets HTML elements maintain proportion.",
+  "main": "dist/index.css",
+  "dependencies": {
+    "grunt-contrib-copy": "^0.5.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-bump": "0.0.13",
+    "grunt-sync-pkg": "^0.1.2"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AndersDJohnson/proportional.git"
+  },
+  "author": "Anders D. Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndersDJohnson/proportional/issues"
+  },
+  "homepage": "https://github.com/AndersDJohnson/proportional"
+}

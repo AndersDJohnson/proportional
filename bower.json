@@ -1,0 +1,10 @@
+{
+  "name": "proportional",
+  "description": "Lets HTML elements maintain proportion.",
+  "version": "0.1.0",
+  "author": "Anders D. Johnson",
+  "license": "MIT",
+  "main": [
+    "dist/index.css"
+  ]
+}
