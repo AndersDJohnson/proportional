@@ -9,5 +9,8 @@
   width: 100%;
 }
 .proportional > img {
+  position: relative;
   width: 100%;
+  visibility: hidden;
+  z-index: -1;
 }

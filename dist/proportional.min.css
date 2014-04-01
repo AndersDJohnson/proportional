@@ -1,1 +1,1 @@
-.proportional{position:relative;overflow:auto;box-sizing:border-box}.proportional>div{position:absolute;height:100%;width:100%}.proportional>img{width:100%}
+.proportional{position:relative;overflow:auto;box-sizing:border-box}.proportional>div{position:absolute;height:100%;width:100%}.proportional>img{position:relative;width:100%;visibility:hidden;z-index:-1}
