@@ -27,7 +27,7 @@ Provide an image with the correct proportions &ndash preferrably a small transpa
 The inner `<div>` will fill the `.proportional` parent element, whose proportion will
 mirror the proportions of the nested `<img>`.
 
-Example with a PNG from [ima.gs](ima.gs):
+Example with a PNG from [ima.gs](http://ima.gs):
 
 ```html
 <div class="proportional">
