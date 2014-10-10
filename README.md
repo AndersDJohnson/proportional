@@ -21,7 +21,7 @@ bower install --save proportional
 ## Usage
 
 Include the CSS in your page, then use the HTML structure seen in examples below.
-Provide an image with the correct proportions &ndash preferrably a small transparent GIF.
+Provide an image with the correct proportions &ndash; preferrably a small transparent GIF.
 
 
 The inner `<div>` will fill the `.proportional` parent element, whose proportion will
